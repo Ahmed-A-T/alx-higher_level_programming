@@ -1,10 +1,10 @@
 ### Welcome to my Python learning journey! 🚀 In this repository, I document my progress as I delve into the world of Python programming. From fundamental concepts to advanced techniques, follow along as I tackle challenges, build projects, and enhance my coding skills.
 
 # 📘 Key Features:
-  *🌐 Comprehensive Python exercises
-  *🚀 Project-based learning
-  *📚 Resources and references
-  *💡 Code snippets and examples
+  * 🌐 Comprehensive Python exercises
+  * 🚀 Project-based learning
+  * 📚 Resources and references
+  * 💡 Code snippets and examples
 
 # 🎯 Goals:
   * Master core Python concepts
