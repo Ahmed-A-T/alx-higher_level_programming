@@ -209,8 +209,8 @@ void free_listint(listint_t *head)
         head = head->next;
         free(current);
     }
-} ```
-``` carrie@ubuntu:~/0x00$ cat 10-main.c
+}
+carrie@ubuntu:~/0x00$ cat 10-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -263,8 +263,8 @@ int main(void)
     free_listint(head);
 
     return (0);
-} ```
-``` carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
+}
+carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
 carrie@ubuntu:~/0x00$$ ./cycle 
 1024
 402
