@@ -297,20 +297,23 @@ Write a Python script that prints exactly and that piece of art is useful - Dora
 * You are not allowed to use print
 * Your script should print to stderr
 * Your script should exit with the status code 1
-``` guillaume@ubuntu:~/py/0x00$ ./100-write.py
+``` 
+guillaume@ubuntu:~/py/0x00$ ./100-write.py
 and that piece of art is useful - Dora Korpar, 2015-10-19
 guillaume@ubuntu:~/py/0x00$ echo $?
 1
 guillaume@ubuntu:~/py/0x00$ ./100-write.py 2> q
 guillaume@ubuntu:~/py/0x00$ cat q
 and that piece of art is useful - Dora Korpar, 2015-10-19
-guillaume@ubuntu:~/py/0x00$ ```
+guillaume@ubuntu:~/py/0x00$ 
+```
 
 ### 12. Compile
 Write a script that compiles a Python script file.
 The Python file name will be stored in the environment variable $PYFILE
 The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
-``` guillaume@ubuntu:~/py/0x00$ cat main.py 
+``` 
+guillaume@ubuntu:~/py/0x00$ cat main.py 
 #!/usr/bin/python3
 print("Best School")
 
@@ -331,7 +334,8 @@ guillaume@ubuntu:~/py/0x00$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFE
 0000140 6d 61 69 6e 2e 70 79 da 08 3c 6d 6f 64 75 6c 65
 0000160 3e 02 00 00 00 73 00 00 00 00
 0000172
-guillaume@ubuntu:~/py/0x00$ ```
+guillaume@ubuntu:~/py/0x00$ 
+```
 
 ### 13. ByteCode -> Python #1
 Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
