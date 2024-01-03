@@ -18,14 +18,17 @@ The Python code will be saved in the environment variable $PYCODE
 guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
 guillaume@ubuntu:~/py/0x00$ ./1-run_inline 
 Best School: 98
-guillaume@ubuntu:~/py/0x00$ ```
+guillaume@ubuntu:~/py/0x00$ 
+```
 
 ## 2. Hello, print
 Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 	* Use the function print
-``` guillaume@ubuntu:~/py/0x00$ ./2-print.py 
+``` 
+guillaume@ubuntu:~/py/0x00$ ./2-print.py 
 "Programming is like building a multilingual puzzle
-guillaume@ubuntu:~/py/0x00$ ```
+guillaume@ubuntu:~/py/0x00$ 
+```
 
 ## 3. Print integer
 Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
@@ -36,9 +39,11 @@ Complete this source code in order to print the integer stored in the variable n
 * You are not allowed to cast the variable number into a string
 * Your code must be 3 lines long
 * You have to use f-strings tips
-``` guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
+``` 
+guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
 98 Battery street
-guillaume@ubuntu:~/py/0x00$ ```
+guillaume@ubuntu:~/py/0x00$ 
+```
 
 ## 4. Print float
 Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
@@ -87,7 +92,8 @@ Complete this source code to print object-oriented programming with Python, foll
 ## 9. Easter Egg
 Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 * Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
-``` guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
+``` 
+guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
@@ -109,7 +115,8 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
-guillaume@ubuntu:~/py/0x00$ ```
+guillaume@ubuntu:~/py/0x00$ 
+```
 
 ## 10. Linked list cycle
 Technical interview preparation:
@@ -121,7 +128,8 @@ Write a function in C that checks if a singly linked list has a cycle in it.
 * Return: 0 if there is no cycle, 1 if there is a cycle
 Requirements:
 * Only these functions are allowed: write, printf, putchar, puts, malloc, free
-``` carrie@ubuntu:~/0x00$ cat lists.h
+``` 
+carrie@ubuntu:~/0x00$ cat lists.h
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -146,8 +154,10 @@ listint_t *add_nodeint(listint_t **head, const int n);
 void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
 
-#endif /* LISTS_H */ ```
-``` carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
+#endif /* LISTS_H */ 
+```
+``` 
+carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -277,7 +287,8 @@ carrie@ubuntu:~/0x00$$ ./cycle
 0
 Linked list has no cycle
 Linked list has a cycle
-carrie@ubuntu:~/0x00$ ```
+carrie@ubuntu:~/0x00$ 
+```
 ### Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
 
 ## 11. Hello, write
