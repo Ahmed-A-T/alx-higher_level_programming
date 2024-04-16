@@ -1,23 +1,14 @@
 #!/usr/bin/python3
 """Lists states"""
 
-from sqlalchemy import Column, Integer, String
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, backref
+from sqlalchemy import Column, Integer, String, ForeignKey
+from relationship_state import Base
 
-Base = declarative_base()
-
-
-class State(Base):
+class City(Base):
     """Class representing the states table"""
-    __tablename__ = 'states'
+    __tablename__ = 'cities'
 
     id = Column(Integer, nullable=False, primary_key=True,
                 autoincrement=True, unique=True)
     name = Column(String(128), nullable=False)
-
-    cities = relationship(
-        "City",
-        cascade="all, delete-orphan",
-        backref=backref("state", cascade="all"),
-        single_parent=True)
+    state_id = Column(Integer, ForeignKey("states.id"), nullable=False)
